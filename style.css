@@ -1,0 +1,42 @@
+
+body {
+    background-color: lightgrey;
+}
+
+.navbar-light .navbar-brand {
+    background-color: purple;
+    color: white;
+    /* font-size: 26px */
+    
+}
+.navbar-nav .nav-item .nav-link 
+ {
+    /* font-size: 24px; */
+    color: purple;
+}
+
+/* .card {
+    margin: 20% 30% 20% 10%;
+} */
+
+.card-footer {
+    border-top: 2px solid purple;
+}
+/* 
+/* .container {
+    /*  */
+    /* margin: 10% 25% 15% 5%; */
+/* } */
+
+/* img {
+    padding-right: none;
+    display: flex;
+    flex-direction: column;
+} */
+
+h2 {
+    color: purple;
+    font-weight: bold;
+    padding-top: 0.5cm;
+}
+
