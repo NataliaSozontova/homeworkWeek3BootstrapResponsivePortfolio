@@ -10,7 +10,7 @@ body {
 /* changing color and font for nav bar header */
 .navbar-light .navbar-brand {
     background-color:purple;
-    color: black;
+    color:white;
     font-size: 24px  
 }
 
