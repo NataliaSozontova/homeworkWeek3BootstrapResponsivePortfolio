@@ -12,26 +12,25 @@
 </head>
 
 <body>
-       <!-- Start Nav bar -->
-       <header id="navigation">
+    <!-- Start Nav bar -->
+    <header id="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
             <span class="navbar-brand">Natalia Sozontova</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="navbar-collapse collapse" id="navbarSupportedContent" role="navigation">
                 <ul class="navbar-nav navbar-right ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link active" href="./contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./index.html">About</a>
+                        <a class="nav-link" href="./index.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -39,95 +38,101 @@
     </header>
     <!-- End Nav bar -->
 
-    <div class="container">
-        <!-- row main -->
-        <!-- card class -->
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-
-                <div class="card mt-5">
-
-                    <div class="card-body">
-
-
-                        <h2 class="card-title">Contact</h2>
-                        <hr>
-
-                        <form>
-                            <div class="form-row">
-                                <label for="exampleFormControlInput1">Name</label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="First name Last name">
-                            </div>
+    <!-- Main page starts -->
+    <main class="Contact">
+        <div class="container">
+            <!--first row-->
+            <div class="row">
+                <!-- first column for the whole card -->
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <!-- Start Contact card -->
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <h2 class="card-title">Contact</h2>
+                            <hr>
+                            <!-- forms starts-->
+                            <form id="contact forms">
+                                <!-- name form starts-->
+                                <div class="form-row">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="First name Last name">
+                                </div>
+                                <!-- name form ends-->
+                                <br>
+                                <!-- email form starts-->
+                                <div class="form-row">
+                                    <label for="exampleFormControlInput1">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <!-- email form ends-->
+                                <br>
+                                <!-- message form starts-->
+                                <div class="form-row">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                        placeholder="Message"></textarea>
+                                </div>
+                                <!-- message form starts-->
+                            </form>
+                            <!-- forms ends-->
                             <br>
-                            <div class="form-row">
-                                <label for="exampleFormControlInput1">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                            </div>
-                            <br>
-                            <div class="form-row">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                                    placeholder="Message"></textarea>
-                            </div>
-                        </form>
-
-                        <br>
-                        <div class="row">
-                            <div class="col-3">
-                                <a href="#" class="btn btn-primary">Submit</a>
-
+                            <!-- second row -->
+                            <div class="row">
+                                <div class="col-3">
+                                    <a href="#" class="btn btn-primary">Submit</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        
-            <!-- Start Connect card -->
-            <div class="col-lg col-md-8 col-sm-12 col-xs-12">
-                <div class="card mt-5 mb-5">
-                    <div class="card-body">
-                        <h2 class="card-title">Connect</h2>
-                        <hr>
 
-                        <div class="row">
-                            <div class="col-4">
-                                <a class="link" href="https://www.linkedin.com/in/natalia-sozontova-2000b91b8/" >
-                                    <img class="social-media-icon d-block m-auto" src="./assets/images/linkedin icon.png" alt="Linkedin">
-                                </a>
+                <!-- Start Connect card -->
+                <!-- one column for the connect card body-->
+                <div class="col-lg col-md-8 col-sm-12 col-xs-12">
+                    <div class="card mt-5 mb-5">
+                        <div class="card-body">
+                            <h2 class="card-title">Connect</h2>
+                            <hr>
+                            <!-- first row of the connect card -->
+                            <div class="row">
+                                <!-- first column for the linkedin icon -->
+                                <div class="col-4">
+                                    <a class="link" href="https://www.linkedin.com/in/natalia-sozontova-2000b91b8/">
+                                        <img class="social-media-icon d-block m-auto"
+                                            src="./assets/images/linkedin icon.png" alt="Linkedin">
+                                    </a>
+                                </div>
+                                <!-- second column for GitHub icon -->
+                                <div class="col-4">
+                                    <a class="link" href="https://github.com/NataliaSozontova">
+                                        <img class="social-media-icon d-block m-auto"
+                                            src="./assets/images/github icon.png" alt="GitHub">
+                                    </a>
+                                </div>
+                                <!-- third column for stackoverflow icon -->
+                                <div class="col-4">
+                                    <a class="link" href="https://stackexchange.com/users/19680854/natalie">
+                                        <img class="social-media-icon d-block m-auto"
+                                            src="./assets/images/stackoverflow icon.png" alt="stackoverflow">
+                                    </a>
+                                </div>
                             </div>
-                       
-                        <div class="col-4">
-                        <a class="link" href="https://github.com/NataliaSozontova" >
-                            <img class="social-media-icon d-block m-auto" src="./assets/images/github icon.png" alt="GitHub">
-                        </a>
-                         </div>
-                         <div class="col-4">
-                        <a class="link" href="https://stackexchange.com/users/19680854/natalie" >
-                            <img class="social-media-icon d-block m-auto" src="./assets/images/stackoverflow icon.png" alt="stackoverflow">
-                        </a>
-                    </div>
-                    </div>
-
+                        </div>
                     </div>
                 </div>
+                <!-- End Connect card -->
             </div>
-            <!-- End Connect card -->
-        
         </div>
-
-        
-    </div>
-    <!-- card class -->
-    </div>
+    </main>
+    <!-- Main page ends -->
 
     <!-- footer starts -->
     <div class="card-footer text-center">
-        ©️2020 Natalia Sozontova 
+        ©️2020 Natalia Sozontova
     </div>
     <!-- footer ends -->
-
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -9,8 +9,8 @@ body {
 
 /* changing color and font for nav bar header */
 .navbar-light .navbar-brand {
-    background-color: grey;
-    color: purple;
+    background-color:purple;
+    color: black;
     font-size: 24px  
 }
 
@@ -63,5 +63,11 @@ header {
 .social-media-icon {
     max-height: 50px;
     width: 50px;
+}
+
+.motto {
+    font-weight: bold;
+    text-align: center;
+    color: purple;
 }
 
