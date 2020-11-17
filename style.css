@@ -9,8 +9,8 @@ body {
 
 /* changing color and font for nav bar header */
 .navbar-light .navbar-brand {
-    background-color:purple;
     color:white;
+    background-color:purple;
     font-size: 24px  
 }
 
