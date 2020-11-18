@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/81/1019/774/pattern-monochrome-dots-golden-ratio-wallpaper-preview.jpg");
+    background-image: url(./assets/images/websiteBackground.jpg);
     min-height: 100vh; 
     margin: 0; 
     display: grid;
@@ -15,13 +15,14 @@ body {
 }
 
 
-/* Changing color and font for nav bar options = */
+/* changing color and font for nav bar options*/
 .navbar-nav .nav-item .nav-link 
  {
     font-size: 24px;
     color: purple;
 }
 
+/* setting params for picture on about me page*/
 .bioPicture {
     max-width: 100%;
     height: auto;
